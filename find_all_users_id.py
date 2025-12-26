@@ -17,7 +17,8 @@ def find_all_users_id(data=read_data())->list:
             if messege['from_id'] not in users_id:
                 users_id.append(messege['from_id'])
 
-    
-
     return users_id
-# find_all_users_id()
+
+
+if __name__ == "__main__":
+   find_all_users_id()

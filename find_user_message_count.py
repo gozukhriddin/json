@@ -24,4 +24,5 @@ def find_user_message_count(data = read_data(), users_id = find_all_users_id())-
     # for i,k in user_data.items():
     #     print(i,k)
     return user_data
-# find_user_message_count()
+if __name__ == "__main__":
+    print(find_user_message_count())

@@ -16,4 +16,5 @@ def find_number_of_messages(data=read_data())->int:
             message_number+=1
     
     return message_number
-find_number_of_messages()
+if __name__ == "__main__":
+   find_number_of_messages()

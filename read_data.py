@@ -14,4 +14,5 @@ def read_data(file_path='./data/result.json')->dict:
     data=file.read()
     message_data=json.loads(data)
     return message_data
-
+if __name__ == "__main__":
+    read_data()

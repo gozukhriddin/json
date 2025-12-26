@@ -18,4 +18,7 @@ def find_all_users_name(data=read_data())->list:
                 # print(messege['from'])
     
     return users_name
-# find_all_users_name()
+
+
+if __name__ == "__main__":
+    find_all_users_name()
